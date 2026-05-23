@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "711d0ff4-aa8b-4e02-a3f1-bb57a39bdfa9",
+      "name": "A",
+      "email": "a@a.com",
+      "passwordHash": "a607c058a649e556927ac73f224e6fea:066d0e3c4b04bbea320c755456115d2c98b5133de1a446241f366914faa05939d0aebf05bf99e01823b598bc3419288af24762689f608891c5e60a2bfba8ffd4",
+      "createdAt": "2026-05-23T14:08:33.843Z"
+    }
+  ]
+}

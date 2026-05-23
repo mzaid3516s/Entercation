@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entercation | Elite E-Learning Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Entercation</h1>
+    <nav>
+      <a href="#courses">Courses</a><a href="#paths">Paths</a><a href="#instructors">Instructors</a>
+      <a href="#dashboard">Dashboard</a><a href="#auth">Sign In / Sign Up</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero"><h2>Build the Best E-Learning Experience Ever</h2><p>All sections are ready for your video uploads and future content.</p></section>
+    <section id="courses"><h3>Course Library Slots</h3><div class="grid" id="courseGrid"></div></section>
+    <section id="paths"><h3>Learning Paths Slots</h3><div class="grid" id="pathGrid"></div></section>
+    <section id="instructors"><h3>Instructor Pages Slots</h3><div class="grid" id="instructorGrid"></div></section>
+    <section id="dashboard"><h3>Learner Dashboard UI</h3><div class="dashboard">
+      <div class="card">Continue Watching Slot</div><div class="card">Saved Courses Slot</div><div class="card">Certificates Slot</div><div class="card">Notes Slot</div>
+    </div></section>
+    <section id="upload"><h3>Video Upload Placeholders</h3><div class="grid" id="uploadGrid"></div></section>
+    <section id="auth"><h3>Account Access</h3>
+      <div class="auth-wrap">
+        <form id="signupForm"><h4>Sign Up</h4><input name="name" placeholder="Name" required/><input name="email" type="email" placeholder="Email" required/><input name="password" type="password" placeholder="Password" required/><button>Create Account</button></form>
+        <form id="signinForm"><h4>Sign In</h4><input name="email" type="email" placeholder="Email" required/><input name="password" type="password" placeholder="Password" required/><button>Sign In</button></form>
+      </div>
+      <pre id="authOutput"></pre>
+    </section>
+  </main>
+  <footer>© Entercation</footer>
+  <script src="app.js"></script>
+</body>
+</html>
